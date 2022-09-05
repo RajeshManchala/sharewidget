@@ -1,0 +1,29 @@
+.learnSection {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 12px;
+    height: 32px;
+    background: #F9FAFB;
+    border-top: 1px solid #E5E7EB;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.button {
+    border: none;
+    background-color: transparent;
+}
+
+.button span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #111827;
+}

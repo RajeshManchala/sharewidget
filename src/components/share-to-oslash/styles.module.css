@@ -1,0 +1,33 @@
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.shareToWebWrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    gap: 16px;
+    width: 100%;
+}
+
+.shareToWeb {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0px 16px;
+}
+
+.titleWrapper {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}

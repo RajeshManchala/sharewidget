@@ -1,0 +1,16 @@
+.searchResultsWrapper {
+    padding: 16px;
+    background: #FFFFFF;
+}
+
+.searchResults {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    height: 240px;
+}
+
+.searchResults dl {
+    margin: 0;
+}

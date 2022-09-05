@@ -1,0 +1,62 @@
+.accessWrapper {
+    position: relative;
+}
+
+.button {
+    border: none;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.button span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #6B7280;
+}
+
+.accessMenu {
+    padding: 8px;
+    position: absolute;
+    width: 172px;
+    top: 20px;
+    left: -100px;
+    background: #FFFFFF;
+    border: 1px solid #F3F4F6;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+}
+
+.accessMenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 172px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.accessMenu li {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px;
+    width: 156px;
+    height: 20px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+}
